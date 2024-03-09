@@ -166,14 +166,12 @@ class ImGuiStandaloneUtilities:
 
     @staticmethod
     def set_value(key: str, value: Any) -> None:
-        """Save value."""
-
+        """Save value."""
         ImGuiStandaloneUtilities.values[key] = value
 
     @staticmethod
     def get_value(key: str) -> Any:
-        """Get value."""
-
+        """Get value."""
         if key not in ImGuiStandaloneUtilities.values:
             return None
 
@@ -181,12 +179,10 @@ class ImGuiStandaloneUtilities:
 
     @staticmethod
     def pressed(key: str) -> bool:
-        """Is key pressed."""
-
+        """Is key pressed."""
         return get_pressed()[key_code(key)]
 
     @staticmethod
     def pressed_global(key: str) -> bool:
-        """Is key pressed globally."""
-
+        """Is key pressed globally."""
         return is_pressed(key)
