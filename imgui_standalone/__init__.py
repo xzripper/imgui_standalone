@@ -83,7 +83,7 @@ class ImGuiStandalone:
         while True:
             for event in pg_events():
                 if event.type == QUIT:
-                    sys_exit(0)
+                    self.close()
 
                 if event.type == MOUSEBUTTONDOWN:
                     moving = True
@@ -123,7 +123,7 @@ class ImGuiStandalone:
                 if on_close:
                     on_close()
 
-                sys_exit(0)
+                self.close()
 
             set_window_size(*self._imgui_io.display_size)
 
