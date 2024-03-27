@@ -47,7 +47,7 @@ from typing import Callable, Any
 
 DEFAULT_SHOW_HIDE_KEY: str = 'insert'
 
-IMGUI_STANDALONE_VERSION: str = '1.1.0'
+IMGUI_STANDALONE_VERSION: str = '1.1.0-alpha'
 
 class ImGuiStandalone:
     """ImGuiStandalone class."""
