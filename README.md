@@ -1,4 +1,4 @@
-<h1 align="center">imgui_standalone 1.0.0 ALPHA</h1>
+<h1 align="center">imgui_standalone 1.1.0 ALPHA</h1>
 <h3 align="center">🧩 Standalone ImGui window. ⚓</h3>
 
 <p align="center"><img src="window.png"></p>
@@ -31,4 +31,4 @@ win.loop(main)
 Installation: Download `imgui_standalone` and move into your project and use it!<br>
 Documentation: Coming later, look into source code or follow your editor type hints.<br>
 
-<hr><p align="center"><b>imgui_standalone 1.0.0 ALPHA</b></p>
+<hr><p align="center"><b>imgui_standalone 1.1.0 ALPHA</b></p>
