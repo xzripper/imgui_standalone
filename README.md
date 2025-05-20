@@ -1,4 +1,4 @@
-<h1 align="center">imgui_standalone 1.1.0 ALPHA</h1>
+<h1 align="center">imgui_standalone 1.1.0 ALPHA (<a href="https://github.com/xzripper/imgui_standalone/issues/1"><code>Issue 1</code></a>)</h1>
 <h3 align="center">🧩 Standalone ImGui window. ⚓</h3>
 
 <p align="center"><img src="window.png"></p>
